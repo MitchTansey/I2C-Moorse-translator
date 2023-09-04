@@ -6,7 +6,7 @@ The Morse Code Translator is a project that uses a Raspberry Pi to flash a messa
 
 ## How it Works
 
-1. The Raspberry Pi flashes a message in Morse code using an LED.
+1. The Raspberry Pi flashes a message in Morse code using an LED via a script written separately.
 2. A photodiode connected to a GPIO pin on the ESP32C3 board detects the flashes of light.
 3. The ESP32C3 board reads the voltage variations from the photodiode.
 4. The code running on the ESP32C3 interprets the Morse code pattern and translates it into English characters.
